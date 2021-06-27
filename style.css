@@ -1,10 +1,10 @@
 html{
     overflow-x:auto;
-    min-width: 1900px;
+    min-width: 1800px;
 }
 body{
     background-color: #f8f6ee;
-    min-width: 1900px;
+    min-width: 1800px;
 }
 .full--header{
     display:flex;
@@ -12,16 +12,16 @@ body{
     height: auto;
     border: 1px solid #d7c0a1;
     background-color: #fdfbf3;
+    font-family: 'Monda', sans-serif;
+    color:#85837b;
     border-radius: 5px;
     margin: 10px 10px;
     padding: 4px;
 }
 .name--header{
-    font-family: 'Monda', sans-serif;
-    font-size: 25px;
-    color:#c1abad;
+    font-size: 27px;
     margin: 10px 10px;
-    margin-left: 0px;
+    margin-left: 20px;
     padding: 4px;
     float: left;
 }
@@ -30,8 +30,6 @@ body{
 }
 .interactive--header{
     display: flex;
-    font-family: 'Monda', sans-serif;
-    color:#c1abad;
     margin-right: 10px;
     font-size: 18px;
     margin: 10px 10px;
@@ -50,6 +48,7 @@ body{
     display: flex;
     height: auto;
     margin-left: 25%;
+    margin-bottom: 150px;
 }
 .circular--protrait{
     /* margin-left: 20%; */
@@ -64,7 +63,6 @@ body{
     margin-top: -70px;
 }
 .introduction{
-    /* border: 1px solid #d7c0a1; */
     font-family: 'Monda', sans-serif;
     color:#916848;
     margin-left: 20px;
@@ -84,4 +82,33 @@ body{
 .intro--paragraph{
     margin-top: 10px;
     font-size: 17px;
+}
+#breakline{
+    size: 1;
+    width: 97%;
+}
+.full--footer{
+    display:flex;
+    justify-content: space-between;
+    height: auto;
+    font-family: 'Monda', sans-serif;
+    color:#663a44;
+    margin: 10px 30px;
+    padding: 4px;
+}
+.footer{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 20px;
+    width: 25%;
+}
+.footer a{
+    font-size: 17px;
+    text-decoration: none;
+    font-weight:normal;
+}
+.credit{
+    font-size: 17px;
+    margin-right: 30px;
+    margin-top: 50px;
 }
