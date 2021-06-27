@@ -41,6 +41,10 @@ body{
 .interactive--tab{
     margin: 0 10px;
 }
+.interactive--tab a{
+    color: #c1abad;
+    text-decoration: none;
+}
 .self--introduction{
     margin-top: 150px;
     display: flex;
