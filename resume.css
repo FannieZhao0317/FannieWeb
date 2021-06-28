@@ -1,0 +1,23 @@
+.resume{
+    font-family: 'Monda', sans-serif;
+    color:#916848;
+    padding: 5px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.resume--header{
+    font-size: 30px;
+
+}
+.full--description{
+    margin-top: 80px;
+    margin-left: 50px;
+    display: flex;
+}
+.sub--header{
+    width: 350px;
+    font-size: 23px;
+}
+.description{
+    font-size: 18px;
+}
