@@ -5,8 +5,11 @@ html{
 body{
     background-color: #f8f6ee;
     min-width: 1300px;
+    margin: 0;
 }
 .full--header{
+    position: sticky;
+    top: 0;
     display:flex;
     justify-content: space-between;
     height: auto;
@@ -14,8 +17,8 @@ body{
     background-color: #fdfbf3;
     font-family: 'Monda', sans-serif;
     color:#85837b;
-    border-radius: 5px;
-    margin: 10px 10px;
+    border-radius: 10px;
+    margin: 0;
     padding: 4px;
 }
 .name--header{
