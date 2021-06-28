@@ -17,7 +17,7 @@ body{
     background-color: #fdfbf3;
     font-family: 'Monda', sans-serif;
     color:#85837b;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin: 0;
     padding: 4px;
 }
