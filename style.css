@@ -126,3 +126,8 @@ body{
     font-size: 18px;
     padding: 10px;
 }
+img#insta{
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.8;
+}
