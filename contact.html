@@ -13,6 +13,11 @@ href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
     rel="stylesheet"
     href="style.css"
 >
+<link
+    rel="stylesheet"
+    href="contact.css"
+>
+
 <html>
     <head></head>
     <body>
@@ -39,8 +44,22 @@ href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
             </div>
         </div>
 
-        <div class="somethinghere">
-            Under Development...
+        <div class="contact">
+            <form 
+                method="post" 
+                action="mailto:fanniezhao0317@gmail.com"
+                enctype="multipart/form-data"
+                name="EmailForm">
+
+                First Name<input class="inputfield" name="firstname" />   
+                Last Name<input class="inputfield" name="lastname">
+                <br>
+                Email<input class="inputfield" name="email"/> 
+                Subject<input class="inputfield" name="subject">
+                <br>
+                Message<textarea cols="40" rows="10" name="message"></textarea> 
+                <input type="submit" value="Send" /> 
+            </form>
         </div>
 
         <hr id="breakline" color=#d7c0a1>
