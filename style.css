@@ -62,7 +62,8 @@ body{
 .circular--protrait img{
     width:100%;
     height: auto;
-    margin-top: -70px;
+    margin-top: -30px;
+    transform: scaleX(-1);
 }
 .introduction{
     font-family: 'Monda', sans-serif;

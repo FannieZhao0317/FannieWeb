@@ -7,28 +7,33 @@
 .resume--header{
     font-weight: bold;
     font-size: 30px;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 .full--description{
     margin-top: 80px;
-    margin-left: 250px;
+    margin-left: 230px;
     display: flex;
     margin-bottom: 80px;
 }
 .sub--header{
-    width: 350px;
+    width: 330px;
     font-size: 23px;
     font-weight: bold;
 }
 .description{
     display: flex;
     font-size: 18px;
-    margin-left: 300px;
+    margin-left: 50px;
+    width: 800px;
 }
 .details{
-    margin: 30px 30px;
+    margin: 10px 30px 30px 30px;
+}
+.details a{
+    font-size: 16px;
 }
 #resume--hr{
     border-top: 1px dotted #d7c0a1;
     width: 85%;
 }
+
