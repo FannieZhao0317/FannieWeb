@@ -2,22 +2,33 @@
     font-family: 'Monda', sans-serif;
     color:#916848;
     padding: 5px;
-    margin-left: 100px;
     margin-top: 80px;
 }
 .resume--header{
+    font-weight: bold;
     font-size: 30px;
-
+    margin-left: 200px;
 }
 .full--description{
     margin-top: 80px;
-    margin-left: 50px;
+    margin-left: 250px;
     display: flex;
+    margin-bottom: 80px;
 }
 .sub--header{
     width: 350px;
     font-size: 23px;
+    font-weight: bold;
 }
 .description{
+    display: flex;
     font-size: 18px;
+    margin-left: 300px;
+}
+.details{
+    margin: 30px 30px;
+}
+#resume--hr{
+    border-top: 1px dotted #d7c0a1;
+    width: 85%;
 }
