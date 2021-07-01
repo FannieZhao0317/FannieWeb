@@ -46,6 +46,10 @@ body{
     color: #c1abad;
     text-decoration: none;
 }
+.interactive--tab a:hover{
+    color: #663a44;
+    font-weight: bold;
+}
 .self--introduction{
     margin-top: 130px;
     display: flex;
