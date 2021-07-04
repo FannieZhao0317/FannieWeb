@@ -28,10 +28,15 @@
     margin-left: 50px;
     width: 800px;
 }
+.years{
+    margin: 10px 30px 30px 30px;
+    width: 200px;
+}
 .details{
     margin: 10px 30px 30px 30px;
+    width: 600px;
 }
-.details a{
+.details a, .years a{
     font-size: 16px;
     color: #b3a188;
 }
